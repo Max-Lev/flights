@@ -1,0 +1,8 @@
+<section class="container">
+    <div class="title">
+        <h1>Workers</h1>
+    </div>
+    <p-listbox #listbox [options]="(workers$ | async)!" (onClick)="onClick(selectedWorker)" 
+    [(ngModel)]="selectedWorker"
+        optionLabel="name"></p-listbox>
+</section>

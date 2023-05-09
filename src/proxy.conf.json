@@ -1,0 +1,14 @@
+{
+    "/workers": {
+        "target": "http://20.66.25.216:3000/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/flights": {
+        "target": "http://20.66.25.216:3000/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

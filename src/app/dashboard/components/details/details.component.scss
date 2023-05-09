@@ -1,0 +1,14 @@
+:host {
+    .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+
+        &:first-child {
+            margin-top: 4rem;
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+:host {
+    .container {
+        display: flex;
+        flex-direction: row;
+
+        ::ng-deep {
+            app-workers-list {
+                flex-basis: 15%;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+
+            app-flights-list {
+                flex-basis: 70%;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+            app-details{
+                flex-basis: 15%;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}

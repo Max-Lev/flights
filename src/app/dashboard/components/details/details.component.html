@@ -1,0 +1,16 @@
+<ng-container *ngFor="let col of columns">
+
+    <ng-container *ngIf="col.field==='duration';else list">
+        <div class="list">
+            <span>{{col.header}}</span><span>{{flightDetails[col.field] | duration}}</span>
+        </div>
+    </ng-container>
+
+    <ng-template #list>
+        <div class="list">
+            <span>{{col.header}}</span><span>{{flightDetails[col.field]}}</span>
+        </div>
+    </ng-template>
+
+    <p-divider layout="horizontal"></p-divider>
+</ng-container>
