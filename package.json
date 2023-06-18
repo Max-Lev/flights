@@ -4,7 +4,7 @@
         "start": "npm run server & npm run app",
         "app":"cd public && npm run build",
         "server":"cd server && npm run start",
-        "build": "ng build",
+        "build": "npm run start",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
     }
