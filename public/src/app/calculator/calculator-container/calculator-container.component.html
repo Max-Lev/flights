@@ -1,0 +1,19 @@
+<form [formGroup]="formGroup">
+    <div>
+        <p-slider formControlName="range"></p-slider>
+    </div>
+    <div>
+        <p-slider formControlName="size"></p-slider>
+    </div>
+</form>
+
+<div class="dd">
+
+    <p-dropdown #dd 
+    (onClick)="click(selectedCity)"
+    [options]="cities" [(ngModel)]="selectedCity" optionLabel="name"></p-dropdown>
+</div>
+
+<div>
+    <app-city></app-city>
+</div>

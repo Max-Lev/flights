@@ -1,0 +1,15 @@
+<section class="container">
+
+    <app-workers-list [workers$]="workers$"
+        (selectedWorkerEventEmitter)="selectedWorkerEventHandler($event)"></app-workers-list>
+
+    <app-flights-list [flights$]="flights$"
+        [columns]="flightColumns"
+        (selectedFlightEmitter)="selectedFlightEmitterHandler($event)"></app-flights-list>
+
+    <app-details [flightDetails]="flightDetails"
+    [columns]="detailsColumns"></app-details>
+
+</section>
+
+<router-outlet></router-outlet>

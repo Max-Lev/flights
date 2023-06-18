@@ -1,0 +1,38 @@
+[
+    {
+        "duration": "360",
+        "from": "LA",
+        "from_date": "11/05/2023",
+        "from_gate": 1,
+        "num": "A234",
+        "plane": "Boing 737",
+        "to": "TLV",
+        "to_date": "12/05/3023",
+        "to_gate": 3,
+        "workerId": 1
+    },
+    {
+        "duration": "480",
+        "from": "CA",
+        "from_date": "11/05/2023",
+        "from_gate": 1,
+        "num": "A434",
+        "plane": "Boing 747",
+        "to": "TLV",
+        "to_date": "13/05/3023",
+        "to_gate": 13,
+        "workerId": 1
+    },
+    {
+        "duration": "930",
+        "from": "CA",
+        "from_date": "11/05/2023",
+        "from_gate": 1,
+        "num": "A333",
+        "plane": "Boing 747",
+        "to": "TLV",
+        "to_date": "13/05/2023",
+        "to_gate": 10,
+        "workerId": 2
+    }
+]

@@ -1,0 +1,29 @@
+:host {
+    form {
+        width: 500px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100px;
+        place-content: space-evenly;
+        align-self: center;
+        align-content: center;
+        // left: calc(50% - 250px);
+        // position: absolute;
+        // left: 50%;
+        // transform: translateX(-50%);
+        margin: auto;
+    }
+
+    .dd {
+        margin: auto;
+        display: flex;
+    }
+
+    ::ng-deep {
+        p-dropdown {
+            margin: auto;
+        }
+    }
+}
