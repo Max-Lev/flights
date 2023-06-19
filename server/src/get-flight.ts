@@ -24,9 +24,9 @@ const response = [
         "from": "Korea",
         "from_date": "11/06/2023",
         "from_gate": 1,
-        "num": "A234",
+        "num": "B24",
         "plane": "Boing 737",
-        "to": "Germany",
+        "to": "Italy",
         "to_date": "14/05/2023",
         "to_gate": 15,
         "workerId": 1
