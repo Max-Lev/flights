@@ -7,7 +7,7 @@ const app: express.Application = express();
 const router = express.Router();
 
 // Take a port 3000 for running server.
-const port: number = 3000;
+const port: number = 3000 || process.env.PORT;
 
 import {dashboardRouter} from './dashboard-controller';
 
