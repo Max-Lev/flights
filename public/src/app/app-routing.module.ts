@@ -13,10 +13,10 @@ const routes: Routes = [
       import('./calculator/calculator.module').then(m => m.CalculatorModule),
   },
   {
-    path: '', pathMatch: 'full', redirectTo: 'calculator'
+    path: '', pathMatch: 'full', redirectTo: 'dashboard'
   },
   {
-    path: '**', pathMatch: 'full', redirectTo: 'calculator'
+    path: '**', pathMatch: 'full', redirectTo: 'dashboard'
   }
 ];
 

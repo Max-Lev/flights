@@ -20,15 +20,15 @@ const response = [
         "workerId": 1
     },
     { 
-        "duration": "120",
-        "from": "Japan",
-        "from_date": "11/05/2023",
+        "duration": "360",
+        "from": "Korea",
+        "from_date": "11/06/2023",
         "from_gate": 1,
         "num": "A234",
-        "plane": "Boing 777",
+        "plane": "Boing 737",
         "to": "Germany",
-        "to_date": "13/05/2023",
-        "to_gate": 13,
+        "to_date": "14/05/2023",
+        "to_gate": 15,
         "workerId": 1
     }
 ]
